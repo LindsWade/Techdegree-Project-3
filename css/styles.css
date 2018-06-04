@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  h1, h2, p{
+    font-family: Georgia, serif;
+    text-align: center;
+  }
+
+  h1 {
+    background-color: black;
+    color: white;
+  }
+  p {
+    color: gray;
+  }
+
+  .header {
+    border-bottom: 10px double black;
+  }
+
+  .form {
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .button{
+    background-color: #20B2AA;
+    color: white;
+    border-radius: 10%;
+  }
