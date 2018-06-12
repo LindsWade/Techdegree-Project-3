@@ -1,33 +1,127 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Merriweather, Arial, serif;
+}
+
+  body {
+    margin:0;
+
   }
 
+  input:focus,
+  textarea:focus {
+    border-color: red;
+  }
 
   h1, h2, p{
-    font-family: Georgia, serif;
     text-align: center;
   }
 
   h1 {
     background-color: black;
     color: white;
+    padding: 30px;
   }
-  p {
+
+  p,  {
     color: gray;
   }
 
-  .header {
-    border-bottom: 10px double black;
+  label {
+    display: inline-block;
   }
 
-  .form {
+  ul {
+  list-style-type: none;
+  }
+
+  .header {
+    margin: 0;
+  }
+
+  .main {
+    border-top: 10px double black;
+    max-width: 80%;
+    margin: auto;
+    
+  }
+
+  .contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 2px solid black;
+  }
+
+  .fieldset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    }
+
+
+  .newsletter-select {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
+  
   .button{
+    width: 70%;
+    margin: 0 auto;
+    height: 75px;
     background-color: #20B2AA;
     color: white;
-    border-radius: 10%;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .small {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+  background-color: lightgrey;
+  width: 75%;
+  height: 50px;
+  padding: 20px;
+  margin: 20px;
+  }
+
+  .textarea 
+  {
+    height: 100px;
+    width: 100px;
+  }
+
+
+  /*Media Queries*/
+
+  @media (min-width: 768px){
+    
+    .contact-input {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .contact label {
+      flex-basis: 30%;
+
+    }
+
+
+
   }
