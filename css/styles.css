@@ -7,6 +7,11 @@
     margin:0;
   }
 
+   #zip {
+      width: 30%;
+    }
+
+
   input[type="text"],
   input[type="email"],
   input[type="tel"],
@@ -28,6 +33,17 @@
     height: 100px;
      -webkit-transition: border 2s, background-color 2s, height 2s, -webkit-transform 2s;
     transition: border 2s, background-color 2s, height 2s, transform 2s;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 20px;
+    display: inline;
+  }
+
+  input[placeholder] {
+    text-align: right;
+    font-size: 16px;
   }
 
 
@@ -56,6 +72,7 @@
   label {
     display: block;
     font-size: 20px;
+    max-width: 100%
   }
 
   ul {
@@ -85,6 +102,11 @@
     margin-bottom: 10px;
     border: none;
     }
+
+  .check {
+    display: inline;
+    width: 10%;
+  }
 
 
   .newsletter-select {
@@ -123,13 +145,11 @@
     color: gray;
   }
 
- 
-
   
   .textarea 
   {
     height: 150px;
-    width: 350px;
+    width: 75%;
   }
 
 
