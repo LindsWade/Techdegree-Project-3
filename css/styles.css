@@ -8,7 +8,7 @@
   }
 
    #zip {
-      width: 30%;
+      width: 40%;
     }
 
 
@@ -17,7 +17,7 @@
   input[type="tel"],
   select {
   background-color: lightgrey;
-  width: 75%;
+  width: 90%;
   height: 50px;
   padding: 20px;
   margin: 20px;
@@ -66,12 +66,13 @@
 
   h2, 
   legend {
-    font-size: 24px;
+    font-size: 16px;
+    padding-bottom: 20px;
   } 
 
   label {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     max-width: 100%
   }
 
@@ -156,6 +157,15 @@
   /*Media Queries*/
 
   @media (min-width: 768px){
+
+    h2, 
+    legend {
+    font-size: 24px;
+  } 
+
+  label {
+    font-size: 20px;
+  }
     
     .contact-input {
       display: flex;
@@ -168,6 +178,21 @@
       width: 15%;
 
     }
+
+    #zip {
+      width: 30%;
+    }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+  width: 75%;
+  height: 50px;
+  padding: 20px;
+  margin: 20px;
+  }
+
 
 
 
